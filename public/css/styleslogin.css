@@ -146,6 +146,7 @@ header {
  .small-letter{
      display:flex;
      justify-content: space-between;
+     margin:auto
  }
 
 footer {
@@ -208,25 +209,17 @@ footer section i {
         margin-left: 12px;
     }
 
-    main section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-    main section article {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 45%;
-    }
-
-    .product-name {
-        display: flex;
+    main{
+        text-align: center;
     }
 
     .input{
         width: 50%;
      }
-    
+     .login-form{
+         width: 100%;
+     }
+     
      .login-form-control button{
          width: 50%;
      }
