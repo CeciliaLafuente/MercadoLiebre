@@ -45,11 +45,11 @@
     <form action="" method=POST class="register-form">
         <div class="register-form-control">
             <input type="text" name="nombreCompleto" placeholder="Nombre completo" class="input">
-            <span class="feedback"></span>
+            <span class="feedback">Debes ingresar nombre y apellido</span>
         </div>
         <div class="register-form-control">
             <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="input">
-            <span class="feedback"></span>
+            <span class="feedback">Debe contener caracteres alfanuméricos</span>
         </div>
      
         <div class="register-form-control">
@@ -59,6 +59,7 @@
         </div>
         <div class="register-form-control">
             <input type="text" name="domicilio" placeholder="Domicilio" class="input">
+            <span class="feedback">Debes ingresar nombre de calle y número</span>
             <span class="feedback"></span>
         </div>
 
@@ -86,22 +87,22 @@
         <div class="register-form-control">
             <label class="titulos">Foto de usuario</label>
             <input type="file" name="fotoUsuario" accept=".jpeg, .png">
-            <span class="feedback"></span>
+            <span class="feedback">La imagen no debe superar los 200kb</span>
         </div>
 
         <div class="register-form-control">
             <input type="email" name="email" placeholder="correo electrónico" class="input">
-            <span class="feedback"></span>
+            <span class="feedback">Email inexistente</span>
         </div>
 
         <div class="register-form-control">
             <input type="password" name="password" placeholder="contraseña" class="input">
-            <span class="feedback"></span>
+            <span class="feedback">contraseña incorrecta</span>
         </div>
 
         <div>
             <input type="password" name="confirmacionContrasena" placeholder="confirmar contraseña" class="input">
-            <span class="feedback"></span>
+            <span class="feedback">contraseña incorrecta</span>
         </div>
         <div class="acept">
         <label><input type="checkbox" value="acept"><a href=#>Acepto términos y condiciones</a></label>
