@@ -184,6 +184,32 @@ footer section i {
 
 @media (min-width:361px) {
 
+    
+    .header-top-bar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 5px 0px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .search-bar {
+        width: 30%;
+        align-self: center;
+    } 
+
+    .search-bar input {
+        width: 60%;
+        text-align: center;
+        align-self: center;
+    }
+    .copy-header {
+        text-align: right;
+      }
+
     .header-top-bar {
         display: flex;
         flex-wrap: nowrap;
@@ -237,6 +263,26 @@ footer section i {
 }
 
 @media (min-width:769px) {
+    header .logo{
+        width: 25%;
+    }
+
+    .header-top-bar {
+        display: flex;
+        align-items: center;
+    }
+
+    .search-bar {
+        justify-content: center;
+    }
+
+    form input{
+        width: 60%;
+    }
+
+    .copy-header{
+        margin-right: 0;
+    }
     .header-top-bar {
         display: flex;
         align-items: center;
@@ -266,12 +312,7 @@ footer section i {
     }
 
     .footer-sections {
-        border: red solid 1px;
         display: flex;
-    }
-
-    footer section {
-        border: red solid 1px;
     }
 
     footer section p {

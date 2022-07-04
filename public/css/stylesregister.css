@@ -118,6 +118,7 @@ header {
  .titulos{
     color: rgb(48, 47, 47);
     font-weight: bold;
+    margin-top: 40px;
  }
 
  .input{
@@ -125,15 +126,18 @@ header {
     border: none;
     padding: 10px;
  }
+
 .perfil-usuario{
     color: rgb(48, 47, 47);
     font-weight: bold;
-    display:block;
+    display:flex;
     margin-bottom: 15px;
+    margin-top: 40px;
+    justify-content: left;
 }
-.perfil-usuario-radio{
-    display: flex;
-    justify-content: space-around;
+
+.perfil-usuario input{
+    align-items: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -142,13 +146,12 @@ header {
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+    margin-top: 40px;
 }
 
-.option{
-    display: block;
-}
 .acept{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 } 
 
 .acept a{
@@ -166,10 +169,6 @@ header {
      margin-top: 20px;
      border: none; 
  }
-
-
-
-
 
 footer {
     font-family: 'Roboto', sans-serif;
@@ -205,6 +204,31 @@ footer section i {
 }
 
 @media (min-width:361px) {
+    
+    .header-top-bar {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 5px 0px;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .search-bar {
+        width: 30%;
+        align-self: center;
+    } 
+
+    .search-bar input {
+        width: 60%;
+        text-align: center;
+        align-self: center;
+    }
+    .copy-header {
+        text-align: right;
+      }
 
     .header-top-bar {
         display: flex;
@@ -257,7 +281,7 @@ footer section i {
          width: 50%;
          margin-left: 0;
      }
-     .perfil-usuario-radio{
+     .perfil-usuario-radio input{
        width: 50%;
     }
     .register-form button{
@@ -267,6 +291,16 @@ footer section i {
 }
 
 @media (min-width:769px) {
+    .search-bar {
+    width: 60%;
+    text-align: center;
+    align-self: center;
+ }
+
+    header .logo{
+        width: 25%;
+    }
+
     .header-top-bar {
         display: flex;
         align-items: center;
@@ -274,6 +308,14 @@ footer section i {
 
     .search-bar {
         justify-content: center;
+    }
+
+    form input{
+        width: 60%;
+    }
+
+    .copy-header{
+        margin-right: 0;
     }
 
     .burger-menu {
@@ -296,12 +338,7 @@ footer section i {
     }
 
     .footer-sections {
-        border: red solid 1px;
         display: flex;
-    }
-
-    footer section {
-        border: red solid 1px;
     }
 
     footer section p {
