@@ -14,6 +14,8 @@ p {
     font-size: 12px;
 }
 
+/* Header */
+
 header {
     background-size: 100vw;
     color: black;
@@ -101,52 +103,61 @@ header {
     text-align: center;
 }
 
+/* Main */
+
 .register-form{
     padding: 40px 15px;
     background-color: #ebebeb;
 }
+
  .register-form-control{
     margin-bottom: 15px;
  }
 
  .register-form-control label{
-    margin-bottom: 15;
     display: block;
-    margin-bottom: 12px;
  }
 
- .titulos{
+ .title{
     color: rgb(48, 47, 47);
     font-weight: bold;
     margin-top: 40px;
+    margin-bottom: 20px;
  }
 
- .input{
+ .register-form-control .input{
     width: 100%;
     border: none;
     padding: 10px;
  }
 
 .perfil-usuario{
-    color: rgb(48, 47, 47);
+    color: #302f2f;
     font-weight: bold;
-    display:flex;
-    margin-bottom: 15px;
-    margin-top: 40px;
-    justify-content: left;
 }
 
-.perfil-usuario input{
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.intereses{
+.perfil-usuario-input{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    margin-top: 40px;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.radio {
+    display: flex;
+}
+
+.radio label{
+ margin-right: 8px;
+}
+
+.option{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.option label{
+    display: flex;
+    margin-right: 5px;
 }
 
 .acept{
@@ -169,6 +180,8 @@ header {
      margin-top: 20px;
      border: none; 
  }
+
+ /* Footer */
 
 footer {
     font-family: 'Roboto', sans-serif;

@@ -42,90 +42,97 @@
         </section>
     </header>
 
-    <form action="" method=POST class="register-form">
-        <div class="register-form-control">
-            <input type="text" name="nombreCompleto" placeholder="Nombre completo" class="input">
-            <span class="feedback"></span>
-        </div>
-        <div class="register-form-control">
-            <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="input">
-            <span class="feedback"></span>
-        </div>
-     
-        <div class="register-form-control">
-            <label class="titulos">Fecha de nacimiento</label>
-            <input type="date" name="fechaNaciemiento" value=2020-02-22 class="input">
-            <span class="feedback"></span>
-        </div>
-        <div class="register-form-control">
-            <input type="text" name="domicilio" placeholder="Domicilio" class="input">
-            <span class="feedback"></span>
-            <span class="feedback"></span>
-        </div>
+
+    <main>
+        <form action="" method=POST class="register-form">
+            <div class="register-form-control">
+                <input type="text" name="nombreCompleto" placeholder="Nombre completo" class="input">
+                <span class="feedback"></span>
+            </div>
+            <div class="register-form-control">
+                <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="input">
+                <span class="feedback"></span>
+            </div>
+
+            <div class="register-form-control">
+                <label class="title">Fecha de nacimiento</label>
+                <input type="date" name="fechaNaciemiento" value=2020-02-22 class="input">
+                <span class="feedback"></span>
+            </div>
+            <div class="register-form-control">
+                <input type="text" name="domicilio" placeholder="Domicilio" class="input">
+                <span class="feedback"></span>
+                <span class="feedback"></span>
+            </div>
 
             <label class="perfil-usuario">Perfil de usuario</label>
-          <div>
-            <input type="radio" name="perfil-usuario">
-            <label>Comprador</label>
-          </div>
-          <div>
-            <input type="radio" name="perfil-usuario">
-            <label>Vendedor</label>
-          </div>
+            <div class="perfil-usuario-input">
 
-        
-        <div class="register-form-control">
-            <label class="titulos">Intereses</label>
-            <div>
-                <label>Electro</label>
-                <input type="checkbox" value="electro">
+                <div class="radio">
+                    <label>Comprador</label>
+                    <input type="radio" name="perfil-usuario">
+                </div>
+                <div class="radio">
+                    <label>Vendedor</label>
+                    <input type="radio" name="perfil-usuario">
+                </div>
             </div>
-            <div>
-                <label>Moda</label>
-                <input type="checkbox" value="categoriaModa">
-            </div>
-            <div>
-                <label>Hogar</label>
-                <input type="checkbox" value="hogar">
-            </div>
-            <div>
-                <label>Juguetería</label>
-                <input type="checkbox" value="categoriaJugueteria">
-            </div>
-            <div>
-                <label>Vida Sana</label>
-                <input type="checkbox" value="categoriaVidaSana">
-            </div>
-           
 
-        <div class="register-form-control">
-            <label class="titulos">Foto de usuario</label>
-            <input type="file" name="fotoUsuario" accept=".jpeg, .png">
-            <span class="feedback"></span>
-        </div>
 
-        <div class="register-form-control">
-            <input type="email" name="email" placeholder="correo electrónico" class="input">
-            <span class="feedback"></span>
-        </div>
+            <div class="register-form-control">
+                <label class="title">Intereses</label>
+                <div class="option">
+                    <label>Electro</label>
+                    <input type="checkbox" value="electro">
+                </div>
+                <div class="option">
+                    <label>Moda</label>
+                    <input type="checkbox" value="categoriaModa">
+                </div>
+                <div class="option">
+                    <label>Hogar</label>
+                    <input type="checkbox" value="hogar">
+                </div>
+                <div class="option">
+                    <label>Juguetería</label>
+                    <input type="checkbox" value="categoriaJugueteria">
+                </div>
+                <div class="option">
+                    <label>Vida Sana</label>
+                    <input type="checkbox" value="categoriaVidaSana">
+                </div>
 
-        <div class="register-form-control">
-            <input type="password" name="password" placeholder="contraseña" class="input">
-            <span class="feedback"></span>
-        </div>
 
-        <div>
-            <input type="password" name="confirmacionContrasena" placeholder="confirmar contraseña" class="input">
-            <span class="feedback"></span>
-        </div>
-        <div class="acept">
-        <label><input type="checkbox" value="acept"><a href=#>Acepto términos y condiciones</a></label>
-        </div>
-        <div>
-            <button type="sumit">Enviar</button>
-            <button type="reset">Borrar</button>
-        </div>
-    </form>
+                <div class="register-form-control">
+                    <label class="title">Foto de usuario</label>
+                    <input type="file" name="fotoUsuario" accept=".jpeg, .png">
+                    <span class="feedback"></span>
+                </div>
+
+                <div class="register-form-control">
+                    <input type="email" name="email" placeholder="correo electrónico" class="input">
+                    <span class="feedback"></span>
+                </div>
+
+                <div class="register-form-control">
+                    <input type="password" name="password" placeholder="contraseña" class="input">
+                    <span class="feedback"></span>
+                </div>
+
+                <div>
+                    <input type="password" name="confirmacionContrasena" placeholder="confirmar contraseña"
+                        class="input">
+                    <span class="feedback"></span>
+                </div>
+                <div class="acept">
+                    <label><input type="checkbox" value="acept"><a href=#>Acepto términos y condiciones</a></label>
+                </div>
+                <div>
+                    <button type="sumit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+        </form>
+    </main>
 
     <footer>
         <div class="footer-sections">
