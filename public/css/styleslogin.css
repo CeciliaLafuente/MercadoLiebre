@@ -10,6 +10,10 @@ body {
     background-color: #ebebeb;
 }
 
+main {
+    height: 45vw;
+}
+
 p {
     font-size: 12px;
 }
@@ -165,12 +169,13 @@ header {
     margin: auto
 }
 
+/* Footer */
+
 footer {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     background-color: #fff;
     color: #666;
-    margin-top: 20px;
     padding: 10px;
 }
 
@@ -252,14 +257,11 @@ footer section i {
     .login-form {
         width: 60%;
         margin: auto;
+        margin-top: 10%;
     }
 
     .input {
         width: 50%;
-    }
-
-    .login-form {
-        width: 100%;
     }
 
     .login-form-control button {
@@ -354,7 +356,8 @@ footer section i {
     footer section i:hover {
         color: #39b54a;
     }
- footer{
-   bottom: 0;
- }
+
+    footer {
+        bottom: 0;
+    }
 }
