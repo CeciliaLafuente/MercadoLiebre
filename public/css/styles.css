@@ -85,7 +85,7 @@ header {
     color: #222222;
     display: inline-block;
     padding: 1px 0px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .nav-bar i {
@@ -240,7 +240,7 @@ footer section i {
     }
 
     .search-bar {
-        width: 30%;
+        width: 20%;
         align-self: center;
     } 
 
@@ -277,7 +277,7 @@ footer section i {
 
 @media (min-width:769px) {
     .logo {
-        width: 30%;
+        width: 20%;
     }
 
     .logo img{
@@ -290,16 +290,19 @@ footer section i {
     }
 
     .search-bar {
+        margin: auto;
         justify-content: center;
+        width: 40%;
     }
 
-    form input{
-        width: 60%;
+    .search-bar input{
+        width: 90%;
     }
 
     .copy-header{
         margin-right: 0;
     }
+
 
     .burger-menu {
         display: none;

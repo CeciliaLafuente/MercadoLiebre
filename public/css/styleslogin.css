@@ -34,7 +34,7 @@ header {
     width: 45%;
 }
 
-.logo img{
+.logo img {
     width: 100%;
 }
 
@@ -86,7 +86,7 @@ header {
     color: #222222;
     display: inline-block;
     padding: 1px 0px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .nav-bar i {
@@ -112,55 +112,58 @@ header {
     background-color: #ebebeb;
 }
 
-.login-form-control{
+.login-form-control {
     margin-bottom: 15px;
 }
 
-.login-form-control label{
-   margin-bottom: 15;
-   display: block;
-   margin-bottom: 3px;
+.login-form-control label {
+    margin-bottom: 15;
+    display: block;
+    margin-bottom: 3px;
 }
 
-.input{
+.input {
     width: 100%;
     border: none;
     padding: 10px;
- }
+}
 
- .login-form-control button{
-     width: 100%;
-     background-color: #1259c3;
-     color: #fff;
-     padding: 5px;
-     border-radius: 5px;
-     margin-top: 20px;
-     border: none; 
- }
+.login-form-control button {
+    width: 100%;
+    background-color: #1259c3;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+}
 
- .login-form-control button:hover{
+.login-form-control button:hover {
     background-color: #0022AA;
 }
 
 
- 
+.remember-me {
+    font-size: 12px;
+    color: #666;
+    display: flex;
+}
 
- .remember-me{
-     font-size: 12px;
-     color: #666;
-     display: flex;
- }
+.remember-me input {
+    margin-right: 5px;
+}
 
- .forgot{
-     font-size: 12px;
-     color: #03264C;
-     text-decoration: none;
- }
- .small-letter{
-     display:flex;
-     justify-content: space-between;
-     margin:auto
- }
+.forgot {
+    font-size: 12px;
+    color: #03264C;
+    text-decoration: none;
+}
+
+.small-letter {
+    display: flex;
+    justify-content: space-between;
+    margin: auto
+}
 
 footer {
     font-family: 'Roboto', sans-serif;
@@ -205,27 +208,28 @@ footer section i {
     }
 
     .logo {
-        width: 30%;
+        width: 20%;
     }
 
-    .logo img{
+    .logo img {
         width: 100%;
     }
 
     .search-bar {
         width: 30%;
         align-self: center;
-    } 
+    }
 
     .search-bar input {
         width: 80%;
         text-align: center;
         align-self: center;
     }
+
     .copy-header {
         text-align: right;
         padding-right: 0px;
-      }
+    }
 
     h3 {
         text-align: left;
@@ -241,49 +245,47 @@ footer section i {
 
     /* Main */
 
-    main{
+    main {
         text-align: center;
     }
 
-    .login-form{
+    .login-form {
         width: 60%;
         margin: auto;
     }
 
-    .input{
+    .input {
         width: 50%;
-     }
+    }
 
-     .login-form{
-         width: 100%;
-     }
-     
-     .login-form-control button{
-         width: 50%;
-     }
-    
-     .remember-me{
-         font-size: 14px;
-     }
-    
-     .forgot{
-         font-size: 14px;
-     }
-     .small-letter{
-         width: 50%;
-     }
+    .login-form {
+        width: 100%;
+    }
 
-     footer{
-         margin-bottom: 0;
-     }
+    .login-form-control button {
+        width: 50%;
+    }
+
+    .remember-me {
+        font-size: 14px;
+    }
+
+    .forgot {
+        font-size: 14px;
+    }
+
+    .small-letter {
+        width: 50%;
+    }
+
 }
 
 @media (min-width:769px) {
     .logo {
-        width: 30%;
+        width: 20%;
     }
 
-    .logo img{
+    .logo img {
         width: 100%;
     }
 
@@ -293,14 +295,16 @@ footer section i {
     }
 
     .search-bar {
+        margin: auto;
         justify-content: center;
+        width: 40%;
     }
 
-    form input{
-        width: 60%;
+    .search-bar input {
+        width: 90%;
     }
 
-    .copy-header{
+    .copy-header {
         margin-right: 0;
     }
 
@@ -323,20 +327,20 @@ footer section i {
         margin: 0px 10px;
     }
 
-/* Main */
+    /* Main */
 
-.login-form{
-    width: 70%;
-}
+    .login-form {
+        width: 70%;
+    }
 
-/* Footer */
+    /* Footer */
 
     .footer-sections {
         display: flex;
     }
 
     footer section p {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     footer section h5 {
@@ -346,7 +350,11 @@ footer section i {
     footer section i {
         font-size: 14px;
     }
+
     footer section i:hover {
         color: #39b54a;
     }
+ footer{
+   bottom: 0;
+ }
 }
