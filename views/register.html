@@ -14,8 +14,10 @@
 <body>
     <header class="header">
         <div class="header-top-bar">
-            <img class="logo" src="images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre" width=120px
+            <a href="./" class="logo">
+            <img src="images/logo-mercado-liebre.svg" alt="Logo Mercado Liebre" 
                 class="logo"></img>
+            </a>
             <form class="search-bar">
                 <input type="text" placeholder="Buscar productos, marcas">
                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -69,12 +71,12 @@
             <div class="perfil-usuario-input">
 
                 <div class="radio">
-                    <label>Comprador</label>
                     <input type="radio" name="perfil-usuario">
+                    <label>Comprador</label>
                 </div>
                 <div class="radio">
-                    <label>Vendedor</label>
                     <input type="radio" name="perfil-usuario">
+                    <label>Vendedor</label>
                 </div>
             </div>
 
@@ -119,13 +121,13 @@
                     <span class="feedback"></span>
                 </div>
 
-                <div>
+                <div class="register-form-control">
                     <input type="password" name="confirmacionContrasena" placeholder="confirmar contraseña"
                         class="input">
                     <span class="feedback"></span>
                 </div>
                 <div class="acept">
-                    <label><input type="checkbox" value="acept"><a href=#>Acepto términos y condiciones</a></label>
+                    <label><input type="checkbox" value="acept"><a href="https://developers.mercadolibre.com.ar/es_ar/terminos-y-condiciones" target="_blanck">Acepto términos y condiciones</a></label>
                 </div>
                 <div>
                     <button type="sumit">Enviar</button>
