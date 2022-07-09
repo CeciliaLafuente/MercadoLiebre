@@ -10,10 +10,6 @@ body {
     background-color: #ebebeb;
 }
 
-main {
-    height: 45vw;
-}
-
 p {
     font-size: 12px;
 }
@@ -68,8 +64,6 @@ header {
 .copy-header {
     font-size: 12px;
     padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
     font-weight: normal;
     font-display: block;
     margin: auto;
@@ -106,8 +100,9 @@ header {
     padding: 5px;
     border-radius: 5px;
     border-style: none;
-    margin-bottom: 10px;
     margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -232,8 +227,13 @@ footer section i {
     }
 
     .copy-header {
-        text-align: right;
+        margin-right: 0px;
         padding-right: 0px;
+    }
+
+    .burger-menu {
+        margin-bottom: 10px;
+        margin-top: 30px;
     }
 
     h3 {
@@ -241,12 +241,6 @@ footer section i {
         margin-left: 12px;
     }
 
-    .nav-bar {
-        display: flex;
-        justify-content: space-between;
-        align-self: center;
-        font-size: 15px;
-    }
 
     /* Main */
 
@@ -283,6 +277,11 @@ footer section i {
 }
 
 @media (min-width:769px) {
+
+    main {
+        height: 25vw;
+    }
+    
     .logo {
         width: 20%;
     }
