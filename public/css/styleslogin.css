@@ -277,10 +277,6 @@ footer section i {
 }
 
 @media (min-width:769px) {
-
-    main {
-        height: 25vw;
-    }
     
     .logo {
         width: 20%;
