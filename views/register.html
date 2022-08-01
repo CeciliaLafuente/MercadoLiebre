@@ -47,26 +47,26 @@
     <main>
         <form action="" method=POST class="register-form">
             <div class="register-form-control">
-                <input type="text" name="nombreCompleto" placeholder="Nombre completo" class="input">
+                <input type="text" name="nombreCompleto" placeholder="Nombre completo" class="input" required autofocus>
                 <span class="feedback"></span>
             </div>
             <div class="register-form-control">
-                <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="input">
+                <input type="text" name="nombreUsuario" placeholder="Nombre de usuario" class="input" required autofocus>
                 <span class="feedback"></span>
             </div>
 
             <div class="register-form-control">
                 <label class="title">Fecha de nacimiento</label>
-                <input type="date" name="fechaNaciemiento" value=2020-02-22 class="input">
+                <input type="date" name="fechaNaciemiento" value=2020-02-22 class="input" required autofocus>
                 <span class="feedback"></span>
             </div>
             <div class="register-form-control">
-                <input type="text" name="domicilio" placeholder="Domicilio" class="input">
+                <input type="text" name="domicilio" placeholder="Domicilio" class="input" required autofocus>
                 <span class="feedback"></span>
                 <span class="feedback"></span>
             </div>
 
-            <label class="perfil-usuario">Perfil de usuario</label>
+            <label class="perfil-usuario" required>Perfil de usuario</label>
             <div class="perfil-usuario-input">
 
                 <div class="radio">
@@ -109,26 +109,26 @@
                 <div class="register-form-control">
                     <label class="title">Foto de usuario</label>
                     <input type="file" name="fotoUsuario" accept=".jpeg, .png">
-                    <span class="feedback"></span>
+                   
                 </div>
 
                 <div class="register-form-control">
-                    <input type="email" name="email" placeholder="correo electrónico" class="input">
-                    <span class="feedback"></span>
+                    <input type="email" name="email" placeholder="correo electrónico" class="input" required autofocus>
+                   
                 </div>
 
                 <div class="register-form-control">
-                    <input type="password" name="password" placeholder="contraseña" class="input">
-                    <span class="feedback"></span>
+                    <input type="password" name="password" placeholder="contraseña" class="input" required autofocus>
+                    
                 </div>
 
                 <div class="register-form-control">
                     <input type="password" name="confirmacionContrasena" placeholder="confirmar contraseña"
-                        class="input">
-                    <span class="feedback"></span>
+                        class="input" required autofocus>
+                    
                 </div>
                 <div class="acept">
-                    <label><input type="checkbox" value="acept"><a
+                    <label><input type="checkbox" value="acept" required autofocus><a
                             href="https://developers.mercadolibre.com.ar/es_ar/terminos-y-condiciones"
                             target="_blanck">Acepto términos y condiciones</a></label>
                 </div>

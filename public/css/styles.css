@@ -177,7 +177,7 @@ main section article i {
 
 .product-description i:hover {
     transform: rotate(-0.25turn);
-    transition: 100ms;
+    transition: 200ms;
 }
 
 .product-name {
@@ -211,8 +211,10 @@ footer section h5 {
 }
 
 footer section i {
+    size: 2em;
     color: #1259c3;
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .copyright {
